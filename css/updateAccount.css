@@ -1,0 +1,57 @@
+h3 {
+    text-align: center;
+}
+
+.sign-up {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.sign-up div {
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sign-up h4,
+.sign-up input[type="text"],
+.sign-up input[type="password"] {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.sign-up h4 {
+    width: 130px;
+}
+
+.sign-up input[type="text"],
+.sign-up input[type="password"] {
+    width: 200px; /* Định cỡ chiều rộng của input */
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.sign-up input[type="submit"] {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffd700;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 180px;
+}
+
+.sign-up input[type="submit"]:hover {
+    background-color: #ffecb3;
+    
+}

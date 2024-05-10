@@ -1,0 +1,175 @@
+/* Định dạng CSS đơn giản */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+    color: #45a049;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: chartreuse;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button {
+    background-color: pink;
+    /* Nền hồng */
+    color: black;
+    /* Chữ đen */
+    font-weight: bold;
+    /* Chữ in đậm */
+    font-size: 16px;
+    /* Kích thước chữ to hơn xíu */
+    padding: 10px 20px;
+    /* Khoảng cách giữa nút và văn bản */
+    border: none;
+    /* Xóa viền */
+    border-radius: 5px;
+    /* Bo góc */
+    cursor: pointer;
+    /* Con trỏ chuột thành hình bàn tay */
+}
+
+button:hover {
+    background-color: #ff7b99;
+    /* Nền hồng nhạt khi di chuột vào */
+}
+
+#filter {
+    font-size: 16px;
+    /* Chữ to hơn */
+    font-weight: bold;
+    /* Chữ in đậm */
+    padding: 8px;
+    /* Khoảng cách giữa nội dung và biên */
+    border-radius: 4px;
+    /* Bo góc */
+}
+
+#filter option {
+    font-size: 16px;
+    /* Chữ to hơn */
+    font-weight: bold;
+    /* Chữ in đậm */
+}
+
+h1 {
+    text-align: center;
+    /* Canh giữa */
+    font-weight: bold;
+    /* Chữ in đậm */
+    animation: changeColor 8s infinite;
+    /* Chạy hiệu ứng 4 màu trong 8 giây lặp lại vô hạn */
+}
+
+@keyframes changeColor {
+    0% {
+        color: blue;
+    }
+    /* Màu xanh */
+    25% {
+        color: red;
+    }
+    /* Màu đỏ */
+    50% {
+        color: purple;
+    }
+    /* Màu vàng */
+    75% {
+        color: green;
+    }
+    /* Màu xanh lá cây */
+    100% {
+        color: blue;
+    }
+    /* Trở lại màu xanh ban đầu */
+}
+
+.product-table {
+    border-collapse: collapse;
+    width: 50%;
+    /* Độ rộng của bảng */
+    margin: 0 auto;
+    /* Căn giữa bảng */
+    float: left;
+    /* Bảng nằm sát lề trái */
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    /* Căn giữa nội dung trong bảng */
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+}
+
+.product-table {
+    border-collapse: collapse;
+    width: 100%;
+    /* Độ rộng của bảng */
+    margin: 0 auto;
+    /* Căn giữa bảng */
+    float: left;
+    /* Bảng nằm sát lề trái */
+    margin-bottom: 20px;
+    /* Khoảng cách dưới 20px */
+    clear: both;
+    /* Tránh sự chồng chéo với các phần tử phía dưới */
+}
+
+.admin-back-btn {
+    position: fixed;
+    bottom: 20px;
+    /* Khoảng cách dưới là 20px */
+    right: 20px;
+    /* Khoảng cách bên phải là 20px */
+}
+
+.admin-back-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    /* Màu nền của nút */
+    color: #fff;
+    /* Màu chữ */
+    text-decoration: none;
+    border-radius: 5px;
+    /* Bo tròn các góc */
+    transition: background-color 0.3s;
+    /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.admin-back-btn a:hover {
+    background-color: #23527c;
+    /* Màu nền khi di chuột vào */
+}

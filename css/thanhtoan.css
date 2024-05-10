@@ -1,0 +1,55 @@
+#Payment-method {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.payment-method {
+    margin-top: 20px;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.payment-option input[type="radio"] {
+    margin-right: 10px;
+}
+
+.method-details {
+    display: flex;
+    align-items: center;
+}
+
+.method-name {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.pay-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto 0;
+    padding: 10px;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pay-button:hover {
+    background-color: #ff7f00;
+}
+
+.method-details img {
+    width: 50px;
+    height: auto;
+}
+
+
